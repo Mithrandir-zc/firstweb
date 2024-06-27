@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #231C1A;
+    height: 4.5vw;
+    width: 100%;
+    position: relative;
+}
+header ul{
+    position: absolute;
+    right:5vw;
+    top: 0;
+    line-height: 80px;
+    font-size: 20px;
+}
+h1{
+    font-size: 35px;
+    color: white;
+    position: absolute;
+    left: 10vw;
+    top: 0;
+    line-height: 80px;
+}
+header li{
+    display: inline;
+    margin: 3vw;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.myintro{
+    background-color: black;
+    color:white;
+    display: flex;
+    height: 50vw;
+    background-image: url(images/bustrip2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.myintro h2{
+    font-size: 75px;
+    color: white;
+}
+.myintro a{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+    height: 90px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.myintro a:hover{
+    text-decoration: underline;
+}
+.showimage{
+    height: 80px;
+    width: 80px;
+    border: 1px solid #ACACAC;
+    border-radius: 10px;
+}
+.Blogs{
+    background-color: black;
+    color:white;
+    display: flex;
+    height: 50vw;
+    background-image: url(images/nightandnet.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.Blogs h2{
+    font-size: 75px;
+}
+.Blogs a{
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    line-height: 50px;
+}
+.Blogs a:hover{
+    text-decoration: underline;
+}
+footer{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    margin-bottom: 0;
+}
